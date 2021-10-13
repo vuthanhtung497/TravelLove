@@ -1,0 +1,72 @@
+:root{
+    --white-color: #fff;
+    --black-color: #000;
+    --blue-color: #14B9D5;
+    --purple-color: #BA71DA;
+    --red-color: #F76570;
+    --yellow-color:#FFD205;
+    --green-color: #1BBC9B;
+    --text-color: #9A9AA7;
+    --height-header: 104px;
+}
+
+*{
+    box-sizing: inherit;
+}
+
+html{
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+.pd-30{
+    padding: 30px;
+}
+
+.b-1{
+    border: 1px solid rgb(236, 236, 236);
+}
+
+.btn{
+    display: inline-block;
+    text-decoration: none;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: var(--white-color);
+    padding: 8px 24px;
+    border-radius: 50px;
+    transition: opacity 0.2s ease;
+    cursor: pointer;
+}
+
+.btn:hover{
+    opacity: 0.8;
+}
+
+.btn--red{
+    background-color: var(--red-color);
+}
+
+.btn--yellow{
+    background-color: var(--yellow-color);
+}
+
+.btn--blue{
+    background-color: var(--blue-color);
+}
+
+.btn--purple{
+    background-color: var(--purple-color);
+}
+
+.btn--white{
+    background-color: var(--white-color);
+}
+
+.btn--green{
+    background-color: var(--green-color);
+}
+
